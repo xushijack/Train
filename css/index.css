@@ -1,0 +1,38 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+}
+
+#btnSearch {
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    z-index: 99999;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+    #btnSearch:hover {
+        border: 1px solid #b6ff00;
+    }
+
+#mainPanel {
+    z-index: 99999;
+    float: left;
+    width: 300px;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+
+.demo-section .k-content {
+    height: auto;
+    z-index: 99999;
+}
